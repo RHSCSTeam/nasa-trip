@@ -4,7 +4,7 @@ var list = [];
 console.log("Ooh, Sneeky Person. Why are you in the console ;)");
 var nasa_ranks = ['Two 100 lb. tanks of oxygen', '5 gallons of water','Stellar map','Food Concentrate','Solar-powered FM receiver-transmitter','50 feet of nylon rope','First aid kit, including injection needle','Parachute silk','Self-inflating life raft','Signal flares','Two .45 caliber pistols', 'One case of dehydrated milk','Portable heating unit','Magnetic compass','Box of matches'];
 if (window.location.protocol == "https:") {
-   window.location.protocol = "http:";
+   window.location = "htpp://rhscsteam.github.io/nasa-trip/";
    window.location.reload();
 }
 $(document).ready(function(){
