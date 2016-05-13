@@ -61,7 +61,7 @@
   	<div id ='main'>
         <div class="jumbotron animated fadeInDown" style="background-color:#6200ad;color:white;background-image:url('galaxy.jpg')">
             <div class="container container-fluid">
-              	<button class='btn btn-warning' onclick='mute()'>Mute</button>
+              	<button class='btn btn-warning' onclick='mute()' id="muteBtn">Mute</button>
                 <h2>Put the items in order from 1 - 15</h2>
               <p>1 being the most important</p>
             </div>
@@ -135,7 +135,7 @@
     <div id='results' hidden>
         <div class="jumbotron animated fadeInDown" style="background-color:#6200ad;color:white;background-image:url('galaxy.jpg')">
             <div class="container container-fluid">
-              	<button class='btn btn-warning' onclick='mute()'>Mute</button>
+              	<button class='btn btn-warning' onclick='mute()' id='muteBtn'>Mute</button>
                 <h2>Lets see how you did!</h2>
                 <p>Comapare your score to the actual NASA Score</p>
             </div>
@@ -189,7 +189,7 @@
                     
                 </div>
                 <div class="jumbotron">
-                	<a href='main.html' style="color:white;"><button type="button" class="btn btn-success btn-lg btn-block">Test your luck! Try again!</button></a>
+                	<a href='#' style="color:white;" onclick="refresh();"><button type="button" class="btn btn-success btn-lg btn-block">Test your luck! Try again!</button></a>
                 </div>
                 
             </div>
