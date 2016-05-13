@@ -32,7 +32,12 @@
     <script data-require="jquery@*" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script data-require="bootstrap@*" data-semver="3.3.5" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script data-require="bootstrap@*" data-semver="3.3.5" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
-    
+    <script>
+    if (window.location.protocol == "https:") {
+   window.location.protocol = "http:";
+   window.location.reload();
+}
+    </script>
     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <link rel="stylesheet" href="style.css" />
 </head>
